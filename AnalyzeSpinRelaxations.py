@@ -55,7 +55,7 @@ if us.perform_analysis == 1:
                 correlations_path=f'{us.output_path_correlation}/{filen}/'
                 
                 print(f'\n 3) Calculating Timescales for \n    {folder_path} \n')               
-                for analyze in list(range(2000,20500,500)):
+                for analyze in list(range(100,5100,100)):
                     print(f'analyzing {analyze/100} ns of corr. func \n')
                     timescale_return = nm2.get_timescales_for_system(correlations_path,us.OP,us.smallest_corr_time,us.biggest_corr_time, us.N_exp_to_fit,analyze,us.output_path_timescales,output_name,save_yaml=True,save_txt=us.save_timescales_txt)
                 if len(timescale_return)>1:

@@ -8,11 +8,11 @@ perform_analysis = 1   # 1/2/3   #1 - goes through fodlers in parent folder, tak
 
 if perform_analysis == 1:
     """Path settings, saving settings"""
-    parent_folder_path="/home/nenciric/Documents/NMR_paper/corr_func/" # A parent folder that contains subfolders with simulations    
+    parent_folder_path="//media/nenciric/Ricky2020/2024/thesis/65_me_corr_func/hMff_av_dif_size/corr_f_all/" # A parent folder that contains subfolders with simulations    
     systems=[""]                            # select only systems which folder name contains some of these
-    output_path_correlation="/home/nenciric/Documents/NMR_paper/corr_func/"   
-    output_path_timescales="//home/nenciric/Documents/NMR_paper/timescales/" 
-    output_path_relaxations="//home/nenciric/Documents/NMR_paper/relaxations/" 
+    output_path_correlation="//media/nenciric/Ricky2020/2024/thesis/65_me_corr_func/hMff_av_dif_size/corr_f_all/"   
+    output_path_timescales="//home/nenciric/Documents/NMR_paper/NMR_nanodiscs/timescales_hmff_short/" 
+    output_path_relaxations="//home/nenciric/Documents/NMR_paper/NMR_nanodiscs/relaxations/" 
     
     save_timescales_txt=False # Generate also txt files?, Results are already saved to yaml files             
     save_relaxations_txt=False # Generate also txt files?, Results are already saved to yaml files 
